@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "Helvetica-Neue-LT-GEO-45-Lights";
+  src: url("../fonts/HelveticaNeueLTGEO-45Lights.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueLTGEO-45Lights.woff") format("woff"),
+    url("../fonts/HelveticaNeueLTGEO-45Lights.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica-Neue-LT-GEO-55-Roman";
+  src: url("../fonts/HelveticaNeueLTGEO-75Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueLTGEO-75Bold.woff") format("woff"),
+    url("../fonts/HelveticaNeueLTGEO-75Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 53px;
+}
+
+button {
+  width: 160px;
+  height: 55px;
+  background-color: #ffffff;
+}
