@@ -37,6 +37,39 @@ img {
   font-display: swap;
 }
 
+.font-1 {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.font-2 {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  color: #171717;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.font-3 {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  color: #171717;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.font-4 {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  color: #171717;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.font-5 {
+  font-family: Helvetica-Neue-LT-GEO-55-Roman;
+  color: #171717;
+  font-size: 16px;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -54,4 +87,61 @@ button {
   width: 160px;
   height: 55px;
   background-color: #ffffff;
+}
+
+.sec-div-1 {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spans {
+  display: flex;
+  gap: 20px;
+}
+
+.spans-1 {
+  background-color: #0a22f4;
+  width: 10px;
+  height: 10px;
+  opacity: 100%;
+  border-radius: 50%;
+}
+
+span {
+  background-color: #0a22f4;
+  width: 10px;
+  height: 10px;
+  opacity: 50%;
+  border-radius: 50%;
+}
+
+.services {
+  display: flex;
+}
+
+.service-1 {
+  width: 463px;
+  margin: 40px;
+}
+
+.square-1 {
+  width: 70px;
+  height: 70px;
+  background-color: #f9f9f9;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.square-2 {
+  width: 70px;
+  height: 70px;
+  background-color: #0a22f4;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+p {
+  margin-top: 20px;
 }
